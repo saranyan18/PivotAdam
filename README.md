@@ -6,7 +6,7 @@
 
 **PivotAdam** is a low-rank optimizer that enables **full-parameter fine-tuning** of billion-parameter models on consumer-grade hardware. By projecting gradients into dynamic, orthonormal subspaces, PivotAdam bypasses the massive memory "tax" of standard Adam optimizer states.
 
-## 🚀 The Breakthrough: Breaking the 8GB Barrier
+## Training on consumer grade hardware(with dedicated gpu)
 
 Standard AdamW requires $2\times$ the model’s parameters in high-precision (float32) memory for optimizer states ($m$ and $v$). 
 
